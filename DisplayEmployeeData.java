@@ -16,7 +16,6 @@ CallableStatement cstmt = conn.prepareCall(&quot;{CALL GetAllEmployees()}&quot;)
 
 ResultSet rs = cstmt.executeQuery();
 
-Department of Computer Science, Rajagiri College of Science 115 Page
 System.out.println(&quot;Employee Data:&quot;);
 System.out.println(&quot;Ename\tSalary&quot;);
 while (rs.next()) {
